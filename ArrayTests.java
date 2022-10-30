@@ -26,11 +26,11 @@ public class ArrayTests {
   }
 
   @Test
-  public void testReversedWMany()
+  public void testReversedW()
   {
-    int[] input = {1, 2, 3, 4, 5};
-    int[] reverseInput = {5,4,3,2,1};
-    assertArrayEquals (reverseInput, ArrayExamples.reversed(input));
+    int[] input = {1, 2, 3};
+    int[] reverseOutput = {3, 2, 1};
+    assertArrayEquals (reverseOutput, ArrayExamples.reversed(input));
   }
 
   @Test
